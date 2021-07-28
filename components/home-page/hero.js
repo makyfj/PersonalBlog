@@ -1,4 +1,4 @@
-import classes from "./hero.module.css";
+import classes from "./hero.module.scss";
 import Image from "next/image";
 
 const Hero = () => {
