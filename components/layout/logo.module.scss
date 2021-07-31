@@ -7,3 +7,9 @@
 	font-family: 'Oswald', sans-serif;
 	color: $third-color;
 }
+
+@media (min-width: 768px) {
+	.logo {
+		font-size: $font-size * 2;
+	}
+}
