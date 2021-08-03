@@ -1,0 +1,28 @@
+@import "../../../styles/globals.scss";
+
+.content {
+	width: 95%;
+	max-width: 60rem;
+	margin: 1rem auto;
+	font-size: $font-size * 1.2;
+	line-height: 1rem;
+	background-color: $primary-color;
+	border-radius: 8px;
+	padding: 2rem;
+
+	p {
+		color: $third-color;
+	}
+
+	.image {
+		margin: 0.5rem auto;
+		width: 100%;
+		max-width: 600px;
+	}
+}
+
+@media (min-width: 768px) {
+	.content {
+		padding: 1rem;
+	}
+}
