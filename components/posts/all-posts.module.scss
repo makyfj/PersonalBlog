@@ -1,0 +1,21 @@
+@import "../../styles/globals.scss";
+
+.posts {
+	width: 90%;
+	max-width: 60rem;
+	margin: 1rem auto;
+	 
+	h1 {
+		text-align: center;
+		font-size: $font-size * 3;
+		color: $third-color;
+	}
+}
+
+@media (min-width: 768px) {
+	.posts {
+		h1 {
+			font-size: $font-size * 3;
+		}
+	}
+}
