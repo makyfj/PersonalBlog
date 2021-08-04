@@ -1,6 +1,6 @@
 ---
-title: NextJS
-date: 2022-10-15
+title: 'Getting Started with NextJS'
+date: '2022-10-15'
 image: getting-started-nextjs.png
 excerpt: Production ready framework
 isFeatured: true
