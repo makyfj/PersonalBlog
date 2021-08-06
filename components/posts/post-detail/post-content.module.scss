@@ -3,15 +3,19 @@
 .content {
 	width: 95%;
 	max-width: 60rem;
-	margin: 1rem auto;
-	font-size: $font-size * 1.2;
-	line-height: 1rem;
-	background-color: $primary-color;
+	margin: 2rem auto;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	background-color: $secondary-color;
 	border-radius: 8px;
 	padding: 2rem;
 
 	p {
 		color: $third-color;
+	}
+
+	img {
+		max-width: 90%;
 	}
 
 	.image {
